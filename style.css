@@ -1,0 +1,19 @@
+p,a {
+    font: oblique small-caps bold 24px 'arial, helvetica, sans-serif';
+    color: rgb(4, 52, 174);
+    text-align: center;
+    text-decoration:line-through;
+    text-transform:lowercase;
+    text-shadow: 2px 4px violet;
+}
+.New{
+    color: blanchedalmond;
+    text-align: left;
+}
+body{
+    background-color: cornflowerblue;
+    background-image: url(ariell.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100%;
+}

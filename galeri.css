@@ -1,0 +1,84 @@
+.profile-image {
+    position: absolute;
+    right : 20px ;
+    top : 0px;
+    max-width: 180px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.profile-container{ position: relative;}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    background-color:skyblue;
+    background-image: url(web\ 5.jpg);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #000911;
+    padding: 50px;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #010c17;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 2px solid skyblue;
+    margin-bottom: 10px;
+}
+
+.profile-image {
+    float: right;
+    width: 200px;
+    height: 225px;
+    border: 3px solid skyblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-left: 0px;
+    margin-bottom: 0px;
+    align-items: right;
+}
+
+.biodata-table {
+    width: 40%;
+    margin-bottom: 5px;
+}
+
+.biodata-table td {
+    padding: 10px;
+    vertical-align: top;
+    font-size: 1.2em;
+}
+
+ul.warna-fav {
+    list-style-type: square;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.5s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+a {
+    color: hsl(210, 60%, 98%);
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+a:hover {
+    color:skyblue;
+}
